@@ -6,7 +6,7 @@ const TEMPLATE_CONFIG = [
     desc: `
       **{{date.DATA}}**
       
-      今天是我们相识的第{{love_day.DATA}}天，爱你❤️❤️❤️
+      今天是我们相爱的第{{love_day.DATA}}天，爱你❤️❤️❤️
       
       下个休息日：{{holidaytts.DATA}}
       
@@ -31,7 +31,6 @@ const TEMPLATE_CONFIG = [
       {{comprehensive_horoscope.DATA}}
       
       ---
-      
       
       {{birthday_message.DATA}}
       
