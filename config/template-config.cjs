@@ -6,6 +6,8 @@ const TEMPLATE_CONFIG = [
     desc: `
       **{{date.DATA}}**
       
+      今天是我们相识的第{{love_day.DATA}}天，爱你❤️❤️❤️
+      
       下个休息日：{{holidaytts.DATA}}
       
       ---
@@ -14,17 +16,22 @@ const TEMPLATE_CONFIG = [
       
       天气：{{weather.DATA}}
       
-      气温(最高/最低):{{max_temperature.DATA}} / {{min_temperature.DATA}}
+      气温：{{min_temperature.DATA}} - {{max_temperature.DATA}} 
       
       风向: {{wind_direction.DATA}}
       
       风级: {{wind_scale.DATA}}
       
+      湿度：{{shidu.DATA}}
+
+      空气质量：{{aqi.DATA}}
+
+      预防感冒提醒：{{ganmao.DATA}}
+      
       {{comprehensive_horoscope.DATA}}
       
       ---
       
-      今天是我们相识的第{{love_day.DATA}}天
       
       {{birthday_message.DATA}}
       
