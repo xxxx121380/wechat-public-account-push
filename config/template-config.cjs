@@ -26,6 +26,8 @@ const TEMPLATE_CONFIG = [
 
       空气质量：{{aqi.DATA}}
 
+      紫外线指数：{{tian_api_weather_uv_index_0.DATA}}
+      
       预防感冒提醒：{{ganmao.DATA}}
       
       {{comprehensive_horoscope.DATA}}
